@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>购物车</title>
+		<link type="image/x-icon" href="../img/common/title.jpg" rel="icon"> 
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" type="text/css" href="../css/cart.css">
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../lib/jquery.cookie.js"></script>
+		<script src="../js/cart.js"></script>
+		<script src="../js/common.js"></script>
+		
+	</head>
+
+	<body>
+		<div id="wrap-head"></div>
+		<div id="wrap-cart">
+
+			<div class="cart">
+				<div class="cart-nav">
+					<span class="gotoIndex"></span>
+					<span></span>
+				</div>
+				<div class="cart-goods">
+					<ul>
+						<li>商品名称</li>
+						<li>售价</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>
+						<li>备注</li>
+					</ul>
+					<div class="goodList">
+						<p>品牌：韩都衣舍</p>
+						<ul>
+							<!--<li>
+								<div class="info">
+									<a href="#" ><img src="../img/goodList/clothes-down/down-1.jpg"></a>
+									<div>
+
+										<p>
+											<a href="goodList.html">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+										</p>
+										<p>
+											<span>颜色:</span><span class="color">白色</span>
+											<span>尺码:</span><span class="size">M</span>
+										</p>
+
+									</div>
+								</div>
+								<div class="price">
+									<del>￥306.00</del><br />
+									<span>￥102</span>
+								</div>
+								<div class="num">
+									<span class="minus">-</span>
+									<input type="text" value="1"/>
+									<span class="plus">+</span>
+								</div>
+								<div class="unit">
+									￥102.00
+								</div>
+								<div class="handle">
+									<span>移入收藏夹</span><br>
+									<span class="delete">删除</span>
+								</div>
+								<div class="intro">
+									<a href="goodList.html">
+										<span>【AMH 韩风男装】早秋新品尝鲜 立即抢购！~~ 满199-20，满299-50，满499-100，系统自动满减！</span>
+									</a>
+								</div>
+							</li>-->
+							
+						</ul>
+					</div>
+					<div class="count">
+						<p><span class="count-price span-1">￥230</span><span class="count-num"><b>2</b>件商品&nbsp;&nbsp;总计：</span></p>
+						<p><span class="span-1">-￥0.00</span><span>满立减：</span></p>
+						<p><span class="span-1">-￥0.00</span><span>税费：</span></p>
+					</div>
+					<p class="cash">
+						<span class="countCash" class="span-1">￥230</span><span>购物金额总计：</span>
+					</p>
+					<p class="button">
+						<a href="goodList.html"></a>
+						<a href="goodList.html"></a>
+					</p>
+				</div>
+
+				<div class="cart-commend">
+					<div class="tite">
+						<h3>韩都官网为您推荐</h3>
+						<p><span>最近浏览过的商品</span><span>最近收藏的商品</span></p>
+					</div>
+					<div class="goodShow">
+						<span class="pageUp"></span>
+						
+						<span class="pageDown"></span>
+						<div>
+						
+						<ul class="watch">
+
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-10.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-10.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-9.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-8.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-7.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-6.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-1.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-18.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-10.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-10.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-9.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-8.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-7.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-6.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-up/up-1.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/clothes-down/down-18.jpg"></a>
+								<a class="biao">AMH男装韩版2016秋季新款青年潮流趣味牛仔夹克外套男NR5394</a>
+								<span>288.00</span>
+							</li>
+
+							
+						</ul>
+						<ul class="cellect">
+
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng1-1.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng10.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng11.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng2.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng3.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng4.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng5.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng6.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng7.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng8.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>288.00</span>
+							</li>
+							<li>
+								<a href="goodList.html"><img src="../img/goodList/geng/geng9.jpg"></a>
+								<a class="biao">韩都衣舍2016韩版女装秋装新款印花修身两件套连衣裙OU6526</a>
+								<span>158.00</span>
+							</li>
+						</ul>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="wrap-links"></div>
+		<div id="wrap-footer"></div>
+	</body>
+
+</html>

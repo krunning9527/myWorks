@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link type="image/x-icon" href="../img/common/title.jpg" rel="icon"> 
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/register.css">
+		<link rel="stylesheet" type="text/css" href="../css/jquery.idcode.css">
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/register.js"></script>
+		<script src="../lib/jquery.idcode.js"></script>
+		<script src="../lib/jquery.cookie.js"></script>
+	</head>
+	<body>
+		<div id="wrap-head"></div>
+		<div id="wrap-search"></div>
+		<div id="wrap-nav"></div>
+		<div id="wrap-register">
+			<div class="register">
+				<div class="titel"></div>
+				<div class="body">
+					<div class="body-load">
+						<h3>已是韩都衣舍用户：<a href="login.html">直接登录</a></h3>
+						<img src="../img/register/367-250.png">
+						<p> <input class="txt" type="text"><input class="btn" type="button"></p>
+					</div>
+					<div class="body-register">
+						<div class="reg-one">
+							<span>1</span>
+							<span>选择注册方式:</span>
+							<input type="button" class="phone" value='使用手机注册'/><input type="button" class="mail" value='使用邮箱注册'/>
+							<div>
+								<p><span></span>使用手机注册在享手机专属券！</p>
+								<p><span></span>推荐使用手机注册，保障账号安全，享安全无忧购物！</p>
+							</div>
+						</div>
+						<div class="reg-two">
+							<ul class="regi-phone">
+								<li class="title">
+									<span>2</span>
+									<span>填写您的信息:</span>
+								</li>
+								<li class="phone">
+									<span class="span-1">您的手机号:</span>
+									<input type="text" /><input type="button" class="btn" value='发送验证码' /><b>1</b>
+									<br/>
+									<p>请输入您在注册时使用的手机号码,若当前号码不用/丢失，或无法收到验证码?<a href="">其他验证方式</a></p>
+								</li>
+								<li class="entro">
+									<span class="span-1">验证码:</span>
+									<input type="text" />
+								</li>
+								<li class="passward">
+									<span class="span-1">密码:</span>
+									<input type="text" /><b>1</b>
+									<br />
+									<p>6-16位字符，可使用字母、数字或符号的组合</p>
+								</li>
+								<li class="pass2">
+									<span class="span-1">确认密码:</span>
+									<input type="text" /><b>1</b>
+								</li>
+								<li class="iDo">
+									<input type="checkbox" />我已看过并接受<span>《用户协议》</span>
+									
+								</li>
+							</ul>
+							<ul class="regi-email">
+								<li class="title">
+									<span>2</span>
+									<span>填写您的信息:</span>
+								</li>
+								<li class="phone">
+									<span class="span-1">Email:</span>
+									<input type="text" /><b></b>
+									<br/>
+									<p>Email地址作为用户名，同时也用于接收账户信息、订单通知及密码找回等功能</p>
+								</li>
+								<li class="passward">
+									<span class="span-1">密码:</span>
+									<input type="text" /><b></b>
+									<br />
+									<p>6-16位字符，可使用字母、数字或符号的组合</p>
+								</li>
+								<li class="pass2">
+									<span class="span-1">确认密码:</span>
+									<input type="text" /><b></b>
+								</li>
+								<li class="random">
+									<span class="span-1">验证码:</span>
+									<input type="text" /><span id="idcode"></span><b></b>
+								</li>
+								<li class="iDo">
+									<input type="checkbox" />我已看过并接受<span>《用户协议》</span>
+									
+								</li>
+							</ul>
+							<button id="register">同意协议并注册</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrap-links"></div>
+		<div id="wrap-footer"></div>
+	</body>
+</html>

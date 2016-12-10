@@ -1,0 +1,244 @@
+#wrap-good{
+	width:100%;
+	margin-top:32px;
+	margin-bottom: 10px;
+}
+.good{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.good .good-menu{
+	border: 1px solid #ddd;
+	width: 180px;
+	float: left;
+}
+.good .good-menu li{
+	/*display: inline-block;*/
+}
+.good .good-menu>ul>li>h3{
+	font-weight: bold;
+	padding: 16px 8px 8px 7px;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+}
+.good .good-menu>ul>li>ul{
+	padding: 0px 8px 8px 7px;
+}
+#wrap-good .good .good-menu .son-h3{
+	text-indent: 15px;
+	background: url(../img/goodList/plus.png) no-repeat 1px center;
+	border:none;
+	padding: 0;
+	line-height: 26px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.good .good-menu .ul-2 li,
+.good .good-menu .ul-1 li
+{
+	line-height: 26px;
+	
+}
+.good .good-menu .ul-2 li>a,
+.good .good-menu .ul-1 li>a
+{
+	color: #666;
+}
+/*.good .good-menu>ul>li>ul>li>a:visited,*/
+.good .good-menu .ul-1 li>a:hover,
+.good .good-menu .ul-2 li>a:hover{
+	color: red;
+}
+.good .good-menu .ul-1>ul{
+	display: none;
+}
+.good .good-menu .ul-1 li>a>span{
+	color: #999;
+}
+.good .good-menu>ul>li>h3 span{
+	float: right;
+	width: 0 ;
+	height: 0;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-left: 4px solid black;
+	margin-top: 2px;
+}
+.good-menu ul li ul{
+	display: none;
+	border-bottom: 1px solid #ddd;
+}
+.good-list{
+	padding-right: 3px;
+	float: right;
+	width: 998px;
+	overflow: hidden;
+}
+.good-list .position{
+	margin-bottom: 25px;
+}
+.good-rank{
+	border: 1px solid #ddd;
+	height: 30px;
+}
+.good-rank ul,.good-rank div{
+	float: left;
+}
+.good-rank ul li{
+	float: left;
+	width: 80px;
+	border-right: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+}
+.good-rank ul li:hover{
+	background: #fafafa;
+}
+.good-rank ul li>span{
+	width: 7px;
+	height: 9px;
+	display: inline-block;
+	margin-left: 2px;
+}
+.good-rank ul li.time span{
+	
+	/*float: left;*/
+	background:url(../img/goodList/arrs.png)  no-repeat -1px -1px  ;
+}
+
+.good-rank ul li.price span{
+	background:url(../img/goodList/arrs.png)  no-repeat -17px -1px  ;
+}
+.good-rank ul li.num span{
+	background:url(../img/goodList/arrs.png)  no-repeat -1px -1px  ;
+}
+.good-rank ul li a{
+	/*text-align: center;*/
+	font-family: "微软雅黑";
+}
+.good-rank div.ipt{
+	padding: 4px 20px 0 40px;
+}
+.good-rank div.ipt input{
+	width: 40px;
+	height: 20px;
+	color: #ddd;
+	border: none;
+	outline: medium;
+	border: 1px solid #ddd;
+}
+.good-rank div.cbk{
+	line-height: 30px;
+}
+.good-rank div.cbk span{
+	float: left;
+	margin-right: 34px;
+	font-family: "微软雅黑";
+}
+.good-rank div.cbk input{
+	margin-top: 9px;
+	float: left;
+	border: none;
+	background: white;
+	outline: medium;
+	border: 1px solid #ddd;
+}
+.good-rank div.page{
+	float: right;
+	padding-right: 13px;
+}
+.good-rank div.page span{
+	float: left;
+	line-height: 28px;
+	font-family: "微软雅黑";
+	margin-left: 13px;
+}
+.good-rank div.page span.chec{
+	border: 1px solid #ddd;
+	padding: 2px 4px;
+	height: 9px;
+	width: 7px;
+	line-height: 9px;
+	margin-top: 8px;
+}
+.goods{
+	margin-right: -14px;
+	overflow: hidden;
+	padding-bottom:30px ;
+}
+.goods>div{
+	float: left;
+	padding: 8px;
+	padding-bottom: 0;
+	border: 1px solid #ddd;
+	margin-top: 18px;margin-right: 13px;
+}
+.goods>div .big-pic img{
+	width: 222px;
+	height: 222px;
+	margin-bottom: 5px;
+}
+.goods>div .small-pic img{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #ddd;
+	padding: 1px;
+	margin-bottom: 12px;
+	
+}
+.goods>div p.price{
+	height: 16px;
+	font-size: 10px;
+	margin-bottom: 9px;
+}
+.goods>div p.price span.newPrice{
+	font-size: 10px;
+	color: #c80a28;
+}
+.goods>div p.price span.newPrice b{
+	font-size: 16px;
+	margin-left: 5px;
+}
+.goods>div p.price del.oldPrice{
+	color: #999;
+	margin-left: 5px;
+}
+.goods>div p.title{
+	line-height: 18px;
+	width: 222px;
+	height: 18px;
+	overflow: hidden;
+	font-family: "微软雅黑";
+}
+.goods>div ul{
+	margin-left: -7px;
+	margin-right: -7px;
+	border-top: 1px solid #ddd;
+}
+.goods>div ul li{
+	float: left;
+	width: 49%;
+	/*margin: auto;*/
+	text-align: center;
+	padding: 4px 0;
+}
+.goods>div ul li:first-child{
+	border-right: 1px solid #ddd;
+}
+.goods>div ul li span{
+	font-size: 11px;
+	color: #999
+}
+.goods>div ul li span.monnum{
+	color: #b57c5b;
+	margin-bottom: 5px;
+}
+.goods>div ul li span.connum{
+	color: #3388bb;
+	margin-bottom: 5px;
+}

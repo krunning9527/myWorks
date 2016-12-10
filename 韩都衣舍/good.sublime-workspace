@@ -1,0 +1,651 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"js",
+				"jquery-1.11.3.min.js"
+			],
+			[
+				"j",
+				"jquery-1.11.3"
+			],
+			[
+				"jqu",
+				"jquery-1.11.3.min.js"
+			],
+			[
+				"sta",
+				"statusText"
+			],
+			[
+				"min",
+				"minIndex"
+			],
+			[
+				"alert",
+				"alertClick"
+			],
+			[
+				"canvas",
+				"canvasizr"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight"
+			],
+			[
+				"meta",
+				"metadata"
+			],
+			[
+				"be",
+				"beautify"
+			],
+			[
+				"beau",
+				"Beautifier"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"collapseT",
+				"collapseTwo"
+			],
+			[
+				"auto",
+				"autocomplete=\"off\"。"
+			],
+			[
+				"view",
+				"viewport"
+			],
+			[
+				"b",
+				"bootstrap"
+			],
+			[
+				"di",
+				"disabled	Attr"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"onmous",
+				"onMouseMove"
+			],
+			[
+				"get",
+				"getBounds"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"a",
+				"arrow.js"
+			],
+			[
+				"ange",
+				"angleX"
+			],
+			[
+				"cap",
+				"captureMouse"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"center",
+				"center2"
+			],
+			[
+				"1",
+				"1.jpg	w:640 h:430"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"gif",
+				"1.gif	w:90 h:90"
+			],
+			[
+				"info",
+				"information"
+			],
+			[
+				"in",
+				"information.html"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"align",
+				"AlignTab: Table Mode (表模型)"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package (安装插件)"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"cmd",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"",
+				"运行 CSScomb JS"
+			],
+			[
+				"toggle",
+				"Toggle Fold Comments"
+			],
+			[
+				"jquery",
+				"Pretty JSON: JSON query with ./jq(查询)"
+			],
+			[
+				"install",
+				"Package Control: Install Package (安装插件)"
+			]
+		],
+		"width": 690.0
+	},
+	"console":
+	{
+		"height": 204.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"& npm -v",
+			"npm -v",
+			"$ npm -v",
+			"node -v",
+			"$ node -v",
+			"nodejs",
+			"node",
+			"$node -v",
+			"$ node -v",
+			"node test.js",
+			"$ test.js",
+			"$ npm install express",
+			"$ npm install <Module Name>",
+			"node-v",
+			"node ",
+			"node server",
+			"node sever",
+			"node -v",
+			"node",
+			"cd",
+			"node.js"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/sublime/Sublime Text3/Data/Packages/User/Context.sublime-menu",
+		"/C/Users/Administrator/Desktop/code/css-love.html",
+		"/F/HTML5/jquery-罗赞 课件源码 上课demo/Day7_插件/拖拽效果.html",
+		"/C/Users/Administrator/Desktop/code/js/utils.js",
+		"/F/demo/love/index.html",
+		"/C/Users/Administrator/Desktop/code/样式并接.html",
+		"/F/demo/love/utils.js",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
+		"/F/demo/index.html",
+		"/C/Users/Administrator/Desktop/code/readme.txt",
+		"/C/Users/Administrator/Desktop/code/index.html",
+		"/C/Users/Administrator/Desktop/index.html",
+		"/C/Program Files/Internet Explorer/Timeline.cpu.xml",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/Example.sublime-keymap",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/CSS Format.sublime-settings",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/CSS Format.sublime-settings",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/Context.sublime-menu",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/css_format.py",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/Default.sublime-commands",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/Main.sublime-menu",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/messages.json",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/CSS-Format/README.md",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/Default.sublime-commands",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/README.md",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/Main.sublime-menu",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/css_format.py",
+		"/C/Program Files (x86)/Sublime Text3/Data/Packages/Sublime-CSS-Format-master/Context.sublime-menu",
+		"/C/Users/Administrator/Desktop/sublime Text隐藏侧边栏等快捷键 - lsh呵呵的专栏 - 博客频道 - CSDN.NET.html",
+		"/G/HTML5/html/第一章/1-3 认识html标签.html",
+		"/C/Users/Administrator/Desktop/课件/01html基础/练习/04表格练习和表格合并/表格合并.html",
+		"/G/HTML5/HTML5课件/第一章/hgroup.html",
+		"/G/HTML5/HTML5课件/第一章/autocomplete.html",
+		"/C/Users/Administrator/Desktop/in.html",
+		"/G/WEB VIP/code/filter.html",
+		"/G/HTML5/html/第一章/02 html css  js.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-27.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-23.html",
+		"/G/HTML5/HTML5课件/第一章/html5中的标记方法.html",
+		"/G/HTML5/HTML5课件/第一章/html5布局.html",
+		"/G/HTML5/HTML5课件/第一章/博客页面实例.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-11.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-8.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-9.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第3章/代码清单3-1.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第1章/代码清单1-1.html",
+		"/G/book/HTML5+CSS3/HTML5与CSS3权威指南/HTML5与CSS3权威指南 配套源码/HTML5与CSS3权威指南 配套源码/第1章/代码清单1-2.html",
+		"/C/Users/Administrator/Desktop/1.html",
+		"/E/Sublime Text3/Data/Packages/SublimeTmpl/templates/html.tmpl",
+		"/D/用户目录/下载/sample.war",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1607 html5 css3/美团项目test/css/style.css",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1607 html5 css3/美团项目test/index3.html",
+		"/G/demo/firm/css/bootstrap.css",
+		"/C/Users/Administrator/Desktop/JavaScript/js核心/JavaScript世界的一等公民-函数.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1607 html5 css3/美团项目test/css/swiper.css",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1607 html5 css3/1607班级html5上课代码/web01/article.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1607 html5 css3/美团项目test/js/idangerous.swiper.min.js",
+		"/C/Users/Administrator/Desktop/test.html",
+		"/E/迅雷下载/project05/qq/js/tz_util.js",
+		"/G/book/HTML5+CSS3/RWDHTML5CSS3_ATWI_CODE/index.html",
+		"/C/Users/Administrator/Desktop/test/js/npm.js",
+		"/E/迅雷下载/project05/qq/js/sg/sg.js",
+		"/G/WEB VIP/2016-潭州学院JSJQ中级班（1604级）-IDE老师/JS/第16章 this,callback回调函以及雪花项目/code/05 demo.html",
+		"/G/WEB VIP/2016-潭州学院JSJQ中级班（1604级）-IDE老师/JS/第16章 this,callback回调函以及雪花项目/code/return.html",
+		"/E/迅雷下载/project05/fly/shop.html",
+		"/G/WEB VIP/2016-潭州学院JSJQ中级班（1604级）-IDE老师/JS/第16章 this,callback回调函以及雪花项目/code/03 call apply bind 的区别.html",
+		"/G/WEB VIP/2016-潭州学院JSJQ中级班（1604级）-IDE老师/JS/第10章 BOM进阶DOM基础/code/demo1.html",
+		"/G/打造3D拖拽相册-/index.html",
+		"/G/WEB VIP/2016-潭州学院JSJQ中级班（1604级）-IDE老师/JS/第9章 BOM/第9章 BOM/code/demo4.html",
+		"/E/Sublime Text3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/G/HTML5/html5+css 上课以及备课demo源码/1609-html5 css3/css3 3d动画/09 3d 盒子旋转 鼠标悬停停止.html",
+		"/E/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/Desktop/01 html5.html",
+		"/C/Users/Administrator/Desktop/html5布局.html",
+		"/G/HTML5/第三阶段 html5 css3课件- 课件回头自己整理一下  修改成千峰的logo/01 html5基础/06简单画图/sv.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/00 私有前缀/index.html",
+		"/G/HTML5/第三阶段 html5 css3课件- 课件回头自己整理一下  修改成千峰的logo/01 html5基础/06简单画图/video/23_code/3.html",
+		"/G/HTML5/第三阶段 html5 css3课件- 课件回头自己整理一下  修改成千峰的logo/01 html5基础/01第一节涉及到的IE兼容html5标签的js/html5.js",
+		"/G/HTML5/第三阶段 html5 css3课件- 课件回头自己整理一下  修改成千峰的logo/01 html5基础/02HTML5 智能form表单新属性.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/01 选择器/jquery.min.js",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/04 盒模型/01 盒模型.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/01 选择器/04 选择器-伪类target.html",
+		"/C/Users/Administrator/Desktop/jquery/day3/code/01 设置元素和内容.html",
+		"/C/Users/Administrator/Desktop/jquery/day3/code/02 元素属性操作.html",
+		"/C/Users/Administrator/Desktop/jquery/day3/code/03 元素样式操作.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/02 颜色/04 颜色-透明hsla.html",
+		"/G/HTML5/html5+css 上课以及备课demo源码/html5+css3备课案例demo/第一天/01 选择器/03 选择器-伪类empty.html",
+		"/C/Users/Administrator/Desktop/jquery/day3/code/04 css方法.html",
+		"/G/海绵二宝/index.html",
+		"/G/code/src/less/main.less",
+		"/G/code/src/js/less.js",
+		"/G/code/gulpfile.js",
+		"/G/code/src/less/less.js",
+		"/G/demo/小黄人/less.js",
+		"/C/Users/Administrator/Desktop/jquery/day1/code/01 jquery加载.html",
+		"/G/WEB VIP/11 - 第十一节：jQuery操作HTML - jQuery的获取、设置、添加、删除、css()、尺寸 - Arry老师/qq/qq/qq.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/1.html",
+		"/G/WEB VIP/case/js/CSS3DRenderer.js",
+		"/G/WEB VIP/case/js/TrackballControls.js",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day1_选择器/[练习]属性选择器.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day2_筛选/[案例]手风琴.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day1_选择器/[作业]打印所输入的表单内容.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day1_选择器/[案例]选项卡.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day2_筛选/[案例]导航菜单.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day2_筛选/[作业]搜索过滤.html",
+		"/G/code/package.json",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day2_筛选/节点关系.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day2_筛选/基本筛选.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day1_选择器/[案例]显示隐藏.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/[案例]显示隐藏.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/[案例]选项卡.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/loading插件/index.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/01 jquery加载.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/loading插件/js/jquery.loading.js",
+		"/C/Users/Administrator/Desktop/jquery/demo/js/jquery-1.11.3.js",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day3_DOM节点操作/[扩展]购买商品飞入购物车效果.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day3_DOM节点操作/[作业]根据数据生成表单2.0.html",
+		"/G/demo/小黄人/1 jquery加载.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/js/jquery-1.11.3.min.js",
+		"/C/Users/Administrator/Desktop/jquery/demo/js/jquery.min.js",
+		"/G/demo/index.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day7_插件/js/jquery.gdsdrag.js",
+		"/G/demo/组件封装/loading插件/index.html",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day7_插件/js/jquery.arSlide.js",
+		"/G/HTML5/jquery-罗赞 课件源码 上课demo/Day1_选择器/jquery的使用.html",
+		"/C/Users/Administrator/Desktop/jquery/demo/index.html"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\",
+			"-webkit-",
+			"header	",
+			"img",
+			"\\",
+			"</option>",
+			"#",
+			"red",
+			"长度",
+			"bg",
+			"var ",
+			"\"",
+			"type=\"text/javascript\"",
+			" var ",
+			"var ",
+			";",
+			"6",
+			"-color",
+			"-webkit-",
+			"false",
+			"true",
+			"\"auto_complete\": ",
+			"Childer",
+			"childer",
+			"Childer",
+			"childer",
+			"Childer",
+			"childer",
+			"Childer",
+			"er",
+			"#",
+			"\\",
+			"hide",
+			"login",
+			"javascript:void(0)",
+			"reg",
+			"autocomplete",
+			"tooltip",
+			"type=\"text/javascript\"",
+			">\n",
+			"config.php",
+			"获取数据",
+			"keke",
+			"messages",
+			"required",
+			"images/",
+			"arry",
+			"https://fly-sy.github.io/",
+			"PBL",
+			"moveDown",
+			"″",
+			"”",
+			"test ",
+			"container\n",
+			"context",
+			"<figure>",
+			"images/",
+			"相心",
+			"l_t",
+			"c_name",
+			"click",
+			"data-link",
+			"<title",
+			"c_music",
+			"m_check",
+			"fly老师",
+			"arry",
+			"alert",
+			"images/",
+			"images",
+			"list_box",
+			"checkbox",
+			"music_munber",
+			"arry",
+			"images/",
+			"bottom",
+			"images/",
+			".c_next",
+			"http://www.17sucai.com",
+			"alt=\"\">",
+			".jumbotron h1",
+			"瓢城",
+			"container",
+			"alert",
+			"jQuery",
+			"}\n",
+			");\n",
+			"href=\"#\"",
+			"border:1px solid",
+			"in",
+			"class=\"\"",
+			"http://www.17sucai.com",
+			"17",
+			"豪情",
+			"data-toggle=\"tab\"",
+			"12",
+			">\n",
+			"col-md-3",
+			"40",
+			"\">\n",
+			">\n",
+			"\">\n",
+			"div",
+			"button",
+			"\n</",
+			"div",
+			"ul",
+			"carouse-",
+			"data-parent=\"#accrdion\"",
+			"collapse",
+			"女",
+			"男",
+			"check",
+			"radio",
+			"data-selector   默认 false，可以选择绑定指定的选择器。\n",
+			"div",
+			"删除后更新",
+			"a>",
+			"<a",
+			"li",
+			">\n",
+			"button",
+			"text",
+			"20px",
+			"<br>",
+			"禁用按钮",
+			">",
+			"<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"../images/",
+			"",
+			"show",
+			"\"",
+			"\n			<figure>\n                <div class=\"imgbox\">",
+			"../images/",
+			"fly",
+			"../images/",
+			"fly",
+			"../images/",
+			"#",
+			"alt=\"\"/>",
+			".jumbotron h2",
+			"潭州",
+			"console.log",
+			" href=\"http://www.baidu.com\" target=\"myframe\"",
+			"",
+			"#",
+			"",
+			"console.log",
+			"dwn",
+			"讲师",
+			"dwn",
+			"document.write",
+			"console.log",
+			"",
+			"###",
+			"console.log",
+			"images/tour",
+			"潭州旅行社",
+			"",
+			"images/tour",
+			"background",
+			"images/tour",
+			"images",
+			"",
+			"images/tour",
+			"images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "good.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\Ide\\167期 JavaWEB基础班HTML+CSS-Ide老师\\PC端项目实战一\\code\\index5.html"
+			],
+			[
+				"i",
+				"E:\\Ide\\167期 JavaWEB基础班HTML+CSS-Ide老师\\PC端项目实战一\\code\\index5.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

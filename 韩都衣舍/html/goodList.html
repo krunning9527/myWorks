@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>商品列表</title>
+		<link type="image/x-icon" href="../img/common/title.jpg" rel="icon"> 
+		<meta charset="utf-8" />
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/goodList.js"></script>
+		<script src="../lib/jquery.cookie.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/common.css">
+		<link rel="stylesheet" type="text/css" href="../css/goodList.css">
+		
+	</head>
+	<body>
+		<div id="wrap-head"></div>
+		<div id="wrap-search"></div>
+		<div id="wrap-nav"></div>
+		<div id="wrap-good">
+			
+			<div class="good">
+				<div class="good-menu">
+					<ul>
+						<li>
+							<h3 class="parent-h3">每日新品<span></span></h3>
+							<ul class="ul-2" id="every">
+								<li><a href="#">20161024</a></li>
+								<li><a href="#">20161023</a></li>
+								<li><a href="#">20161022</a></li>
+								<li><a href="#">20161021</a></li>
+								<li><a href="#">20161020</a></li>
+								<li><a href="#">20161019</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3 class="parent-h3">HSTYLE女装<span></span></h3>
+							
+									
+								<ul class="ul-1">
+										<h3 class="son-h3">上装</h3>
+									<ul id="clothes-up">
+										<li><a href="#">T恤<span>(285)</span></a></li>
+										<li><a href="#">裤子<span>(285)</span></a></li>
+										<li><a href="#">衬衫<span>(285)</span></a></li>
+										<li><a href="#">卫衣/绒衫<span>(285)</span></a></li>
+										<li><a href="#">套装<span>(285)</span></a></li>
+										<li><a href="#">蕾丝衫/雪纺衫<span>(285)</span></a></li>
+										<li><a href="#">短外套<span>(285)</span></a></li>
+										<li><a href="#">羽绒服<span>(285)</span></a></li>
+										<li><a href="#">马夹<span>(285)</span></a></li>
+									</ul>
+							
+							
+									
+									
+										<h3 class="son-h3">下装</h3>
+									<ul class="ul-1" id="clothes-down">
+										<li><a href="#">裤子<span>(285)</span></a></li>
+										<li><a href="#">短裤<span>(285)</span></a></li>
+										<li><a href="#">棉裤<span>(285)</span></a></li>
+										<li><a href="#">打底裤<span>(285)</span></a></li>
+										<li><a href="#">九分裤<span>(285)</span></a></li>
+										<li><a href="#">秋季裙裤<span>(285)</span></a></li>
+										<li><a href="#">半身裙<span>(285)</span></a></li>
+										<li><a href="#">背带裤<span>(285)</span></a></li>
+										<li><a href="#">牛仔裤<span>(285)</span></a></li>
+									</ul>
+							</ul>
+						</li>
+						
+						
+						
+						<li>
+							<h3 class="parent-h3">SONEED女装<span></span></h3>
+						</li>
+						<li>
+							<h3>AMH男装<span></span></h3>
+						<li>
+							<h3>MiniZaru童装<span></span></h3>
+						</li>
+	
+						<li>
+							<h3>范奎恩<span></span></h3>
+						</li>
+						<li>
+							<h3>AMH男装<span></span></h3>
+							<li>
+							<h3>每日新品<span></span></h3>
+						</li>
+						<li>
+							<h3>HSTYLE女装<span></span></h3>
+						</li>
+						<li>
+							<h3>SONEED女装<span></span></h3>
+						</li>
+						<li>
+							<h3>AMH男装<span></span></h3>
+						</li>
+						<li>
+							<h3>范奎恩<span></span></h3>
+						</li>
+						<li>
+							<h3>AMH男装<span></span></h3>
+							<li>
+							<h3>每日新品<span></span></h3>
+						</li>
+						<li>
+							<h3>HSTYLE女装<span></span></h3>
+						</li>
+						<li>
+							<h3>SONEED女装<span></span></h3>
+						</li>
+						<li>
+							<h3>AMH男装<span></span></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="good-list">
+					<div class="position">您所在的位置&nbsp;&gt;&nbsp;韩都衣舍&nbsp;&gt;&nbsp;<span id="category">1</span></div>
+					<div class="good-rank">
+						<ul>
+							<li><a href="">默认排序</a></li>
+							<li class="time"><a href="">上架时间</a><span></span></li>
+							<li class="price"><a href="">价格</a><span></span></li>
+							<li class="num"><a href="">销量</a><span></span></li>
+						</ul>
+						<div class="ipt">
+							<input type="text" placeholder="&#65509;" /><span>-</span><input type="text" placeholder="&#65509;" />
+						</div>
+						<div class="cbk">
+							<input type="checkbox" /><span>折扣商品</span>
+							<input type="checkbox" /><span>包邮</span>
+						</div>
+						<div class="page">
+							<span>共计285个商品</span>
+							<span>1/8</span>
+							<span class="chec">&lt;</span>
+							<span class="chec">
+								&gt;
+							</span>
+						</div>
+					</div>
+					<div class="goods">
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+						<!--<div>
+							<p class="picture">
+								<a class="big-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								<a class="small-pic" href="#"><img src="../img/goodList/geng/geng1.jpg"></a>
+								
+							</p>
+							<p class="price">
+								<span class="newPrice">&#65509;<b>179</b></span><del class="oldPrice">&#65509;658.00</del>
+							</p>
+							<p class="title"><a href="#">韩都衣舍2016韩版女秋装新款条纹拼接长袖连衣裙DU6098樱</a></p>
+							<ul>
+								<li><span class="monnum">766</span><br><span>月销量</span></li>
+								<li><span class="connum">2</span><br><span>累计评价</span></li>
+							</ul>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrap-links"></div>
+		<div id="wrap-footer"></div>
+	</body>
+</html>
